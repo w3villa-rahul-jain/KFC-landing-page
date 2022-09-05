@@ -50,13 +50,18 @@
           <div class="nav-brand">
             <h1>KFC</h1>
           </div>
+
+          <button class="toggle-btn" id="toggle">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button> 
+
           <div>
             <ul class="nav-item-2">
               <li class="nav-link-2"><a href="#">About Us</a></li>
               <li class="nav-link-2"><a href="#">Find Us</a></li>
               <li class="nav-link-2"><a href="#">All CAMPAGINS</a></li>
-              <li class="nav-link-2 user-bucket mr-3"><a href="#"><i class="fa-solid fa-user"></i></a></li>
-              <li class="nav-link-2 user-bucket"><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li> 
+              <li class="nav-link-2 user-bucket bucket-mr"><a href="#"><i class="fa-solid fa-user"></i></a></li>
+              <li class="nav-link-2 user-bucket bucket-mt"><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li> 
             </ul>
           </div>
         </div>
@@ -64,6 +69,7 @@
       <!-- #navbar end -->
       <section>
       <div class="main-area container"> 
+        <div class="main-section-square"></div>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -226,11 +232,19 @@
             <img src="./images/cheeseburger-155659.png" alt="" width="100%">
           </div>  
         </div>
+        <div class="owl-navigation">
+          <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+          <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+      </div>
       </div>
     </section>
     <!--carouselsection end  -->
 
     <!-- card section start -->
+    
+
+
+    
     <section>
       <div class="cards-section">
         <div class="container">
@@ -245,16 +259,19 @@
                 <img src="./images/cheeseburger-155659.png" alt="" width="100%"> 
               </div>
             </div>
-           <div class="card bg-card text-white">
+           <div class="card">
             <div class="card-text">
               <h3 class="card-heading">OTHER FLAVORS</h3>
               <p>SAVE ROOM WE MADE COOKIES</p>
-              <h3 class="card-quantity text-white">3.90 TL</h3>
+              <h3 class="card-quantity">3.90 TL</h3>
             </div>
             <div class="card-image image-back-circle bg-card-image">
               <img src="./images/cheeseburger-155659.png" alt="" width="100%"> 
             </div>
             </div>
+            
+
+
           <div class="card">
             <div class="card-text">
               <h3 class="card-heading">FIND A KFC STORE NEAR YOU</h3>
@@ -270,7 +287,7 @@
               <div class="col-md-6">
                 <div class="two-cards-section">
                   <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-6">
                       <h3 class="card-heading">CRISPY AND FRESH CHICKEN MASTERCHEF</h3>
                       <button class="real-chicken-button">100% Real chicken</button>
                     </div>
@@ -280,7 +297,7 @@
                   </div>
                 </div>  
               </div>
-              <div class="col-md-6">
+              <div class="col-6">
                 <div class="two-cards-section">
                   <div class="row">
                     <div class="col-md-6">
@@ -306,16 +323,17 @@
 
       <div class="container">
         <div class="two-image-social">
+          <div class="image-social-circle"></div>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6">
               <div class="first-above-image">
-                <img src="images/hello-i-m-nik-xn2DIp6Z8Jk-unsplash.jpg" alt="" width="100%" height="410px">
+                <img src="images/jason-yuen-M8Zn9wMIYoo-unsplash.jpg" alt="" width="100%" height="410px">
               </div>
               <div class="first-below-image">
-                <img src="images/jason-yuen-M8Zn9wMIYoo-unsplash.jpg" alt="" width="100%" height="370px">
+                <img src="images/hello-i-m-nik-xn2DIp6Z8Jk-unsplash.jpg" alt="" width="100%" height="370px">
               </div>
             </div>
-          <div class="col-md-6">
+          <div class="col-lg-6 text-on-images-side">
             <h1 class="side-text">Now with your favorite <br>Kfc mobile application<br> in your pocket</h1>
             <div class="social-btn">
               <div class="social-iphone-btn">
@@ -341,15 +359,79 @@
 
     <section>
       <div class="social-videos-container">
+        <div class="social-section-circle"></div>
+        <div class="social-section-circle-2"></div>
         <div class="container">
           <div class="social-videos">
             <div class="row">
-              <div class="col-md-6"></div>
-              <div class="col-md-6">
+              <div class="col-lg-6">
+                <h2 class="video-social-text">SOCIAL</h2>
+                <div class="grid-row-social">
+                  <div class="grid-row-first">
+                    <div class="grid-col-first">
+                      <div class="social-links-d">
+                      <i class="fa-brands fa-twitter"></i>
+                      </div>
+                      <div class="social-inner-social-text">
+                      <h3>FrancoEjder</h3>
+                      <p class="para-12"><a href="#" class="user-tweeet-name">@lovekfc</a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, cumque?</p>
+                      </div>
+                    </div>
+                    <div class="grid-col-first">
+                      <div class="social-links-d">
+                      <i class="fa-brands fa-twitter"></i>
+                      </div>
+                      <div class="social-inner-social-text">
+                      <h3>FrancoEjder</h3>
+                      <p class="para-12"><a href="#" class="user-tweeet-name">@lovekfc</a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, cumque?</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-row-second">
+                    <div class="grid-column-first">
+                      <div class="grid-col-first">
+                        <div class="social-links-d bg-red-insta">
+                          <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="social-inner-social-text">
+                        <h3>FrancoEjder</h3>
+                        <p class="para-12 mtb-24"><a href="#" class="user-tweeet-name">@lovekfc</a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, cumque?</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid-column-second">
+                      <div class="grid-column-first">
+                        <div class="grid-col-first">
+                          <div class="social-links-d bg-dark-blue">
+                            <i class="fa-brands fa-facebook-f"></i>
+                          </div>
+                          <div class="social-inner-social-text">
+                          <h3>FrancoEjder</h3>
+                          <p class="para-12 mtb-24"><a href="#" class="user-tweeet-name">@lovekfc</a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, cumque?</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid-column-third">
+                      <div class="grid-column-first">
+                      <div class="grid-col-first">
+                        <div class="social-links-d bg-dark-blue">
+                          <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="social-inner-social-text">
+                        <h3>FrancoEjder</h3>
+                        <p class="para-12 mtb-24"><a href="#" class="user-tweeet-name">@lovekfc</a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, cumque?</p>
+                        </div>
+                      </div>
+                    </div></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
                 <h2 class="video-social-text">VIDEOS</h2>
                 <div class="video-section">
                   <div class="video-container">
-                    <video src="images/Food - 24999.mp4" height="100%" width="100%" autoplay="true" controls></video>
+                    <video src="images/Food - 24999.mp4" width="100%" height="100%" autoplay="true" controls></video>
                   </div>
                   <div class="text-on-video">
                     <h1 class="text-video-heading">Get the Ginger Today<br>Before it goes to space</h1>
@@ -371,7 +453,7 @@
           <div class="contact-details">
             <h1 class="kfc-text-logo">KFC</h1>
             <h5 class="w-contact"><i class="fa-brands fa-whatsapp px-3 font-50"></i>444 3 555</h5>
-            <h5 class=""><i class="fa-solid px-3 font-50 fa-store"></i>0(212) 705 00 00</h5>
+            <h5 class="w-contact-house"><i class="fa-solid px-3 font-50 fa-store"></i>0(212) 705 00 00</h5>
           </div>
           <div class="social">
             <li href="#" class="contact-social-icons"><a href=""></a><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -483,33 +565,6 @@
     referrerpolicy="no-referrer"
   ></script>
 
-  <script>
-    $(".owl-carousel").owlCarousel({
-      loop: true,
-      margin: 20,
-      nav: true,
-      dots: true,
-      gap: 50,
-      autoplay: true,
-      autoplayTimeout:1100000,
-      dots: true,
-      navText: [$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')],
-      responsive: {
-        0: {
-          items: 3,
-        },
-        600: {
-          items: 3,
-        },
-        768: {
-          items: 6,
-        },
-        1000: {
-          items: 9,
-        },
-      },
-    });
-  </script>
  
   </body>
 </html>
