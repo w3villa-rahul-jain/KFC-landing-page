@@ -87,6 +87,17 @@ a {
 
 /* circles code section */
 
+.top-round-circle{
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: -151px;
+  right: -126px;
+  border-radius: 50%;
+  border: 60px solid red;
+  opacity: .6;
+}
+
 /* circles code section */
 
 /* heading area */
@@ -252,11 +263,12 @@ a {
 
 .main-section-square {
   height: 700px;
-  width: 500px;
+  width: 380px;
   background: #e10c15;
   position: absolute;
-  right: -400px;
-  top: -400px;
+  right: 35px;
+  top: -256px;
+  opacity: .2;
   border-radius: 30px;
   transform: rotate(50deg);
 }
@@ -363,6 +375,7 @@ a {
 
 .main-card-section {
   background: var(--bgCream);
+  overflow: hidden;
 }
 
 .above-cards {
@@ -384,7 +397,7 @@ a {
 }
 
 .card-heading {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
 }
 .card-paragraph {
@@ -410,6 +423,29 @@ a {
 
 .card-test:hover .card-quantity {
   color: var(--fontWhite);
+}
+
+.two-card-button {
+  background: var(--bgCard);
+  color: white;
+  font-size: wite;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(251, 44, 72, 0.3);
+}
+
+.cards-text-section {
+  position: relative;
+}
+
+.below-card-image {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
 }
 
 /* 
@@ -520,10 +556,60 @@ two-card-image {
   right: 40px;
   border-radius: 50%;
   opacity: 0.7;
+  z-index: -1;
 }
 /* circle code */
 
 /* below card section start */
+
+.below-card-section {
+  background: var(--bgCream);
+  padding-bottom: 50px;
+}
+
+.below-cards {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  gap: 30px;
+  justify-content: center;
+}
+
+.below-card-two {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  padding: 20px;
+  border-radius: 24px;
+  background: white;
+}
+
+.card-circle-left {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  background: var(--bgYellow);
+  top: -70px;
+  border-radius: 50%;
+  z-index: 0;
+  opacity: 0.5;
+  right: -40px;
+}
+
+.card-circle-left-2{
+  position: absolute;
+  height: 180px;
+  width: 180px;
+  
+  border-radius: 50%;
+  top: 0px;
+  border: 50px solid var(--bgYellow);
+  left: -103px;
+  opacity: .5;
+  
+}
+
+/* .below-card-text{
+
+} */
 
 /* cards section end */
 
@@ -554,6 +640,9 @@ two-card-image {
   left: 235px;
 }
 
+.first-card {
+  z-index: 2;
+}
 .side-text {
   color: white;
   font-weight: 700;
@@ -595,6 +684,25 @@ two-card-image {
   border-radius: 50%;
   bottom: -40px;
   left: 20px;
+}
+
+.main-circle-card {
+  position: absolute;
+  background: transparent;
+  height: 100px;
+  width: 100px;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.forth-parent-circle {
+  position: absolute;
+  background: transparent;
+  height: 150px;
+  width: 270px;
+  top: 0;
+  right: 30px;
+  overflow: hidden;
 }
 
 /* two image section end */
@@ -791,6 +899,15 @@ two-card-image {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .below-cards{
+    grid-template-columns: 440px 440px;
+  }
+}
+
+@media (max-width: 900px){
+  .below-cards{
+    grid-template-columns: 500px;
   }
 }
 
