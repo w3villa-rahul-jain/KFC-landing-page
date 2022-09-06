@@ -87,6 +87,11 @@ a {
 
 /* circles code section */
 
+.main-section{
+  position: relative;
+  overflow: hidden;
+}
+
 .top-round-circle{
   height: 300px;
   width: 300px;
@@ -96,6 +101,18 @@ a {
   border-radius: 50%;
   border: 60px solid red;
   opacity: .6;
+}
+
+.main-center-circle{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  /* background-color: blue;   */
+  border-radius: 50%;
+  top: -90px;
+  left: 40%;
+  border: 30px solid rgba(249, 85, 54,.7);
+  
 }
 
 /* circles code section */
@@ -249,15 +266,15 @@ a {
   background-size: cover;
 }
 .carousel-indicators li {
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
 }
 
 .carousel-indicators .active {
   background-color: var(--bgYellow);
-  width: 35px;
-  height: 15px;
+  width: 25px;
+  height: 10px;
   border-radius: 10px;
 }
 
@@ -272,6 +289,7 @@ a {
   border-radius: 30px;
   transform: rotate(50deg);
 }
+
 
 /* main area end */
 
@@ -532,6 +550,14 @@ two-card-image {
   font-weight: bolder;
 } */
 
+.carousel-indicators-override{
+  bottom: -25px;
+  left: -220px;
+  
+}
+
+
+
 .real-chicken-button {
   margin-top: 35px;
   font-size: 18px;
@@ -580,6 +606,7 @@ two-card-image {
   padding: 20px;
   border-radius: 24px;
   background: white;
+  box-shadow: 0 15px 20px rgba(254, 199, 49, 0.2);
 }
 
 .card-circle-left {
@@ -632,6 +659,7 @@ two-card-image {
   top: -80px;
   left: 90px;
   z-index: 1;
+  box-shadow: 0 15px 20px rgba(0,0,0,.4);
 }
 
 .first-below-image {
@@ -660,6 +688,7 @@ two-card-image {
   justify-content: center;
   align-items: center;
   color: white;
+  box-shadow: 0 15px 20px rgba(0,0,0,.2);
 }
 
 .social-iphone-btn {
