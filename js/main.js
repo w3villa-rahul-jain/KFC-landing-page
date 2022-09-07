@@ -7,12 +7,12 @@ toggleBtn.addEventListener("click", function () {
 });
 
 $(document).ready(function () {
-  $(".owl-carousel").owlCarousel({
+  $(".owl-two").owlCarousel({
     loop: true,
     margin: 20,
     nav: true,
     gap: 50,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 1100,
     dots: false,
     navText: [
@@ -21,7 +21,7 @@ $(document).ready(function () {
     ],
     responsive: {
       0: {
-        items: 3,
+        items: 1,
       },
       600: {
         items: 3,
@@ -35,5 +35,31 @@ $(document).ready(function () {
     },
   });
 
-
+  $(".owl-one").owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: true,
+    gap: 50,
+    autoplay: true,
+    autoplayTimeout: 1100,
+    dots: false,
+    navText: [
+      $(".owl-navigation .owl-nav-prev"),
+      $(".owl-navigation .owl-nav-next"),
+    ],
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      768: {
+        items: 3,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  });
 });
