@@ -39,10 +39,10 @@ $(document).ready(function () {
     loop: true,
     margin: 20,
     nav: true,
-    gap: 50,
+    gap: 20,
     autoplay: true,
-    autoplayTimeout: 1100,
-    dots: false,
+    autoplayTimeout: 11000000,
+    dots: true,
     navText: [
       $(".owl-navigation .owl-nav-prev"),
       $(".owl-navigation .owl-nav-next"),
@@ -52,7 +52,7 @@ $(document).ready(function () {
         items: 1,
       },
       600: {
-        items: 1,
+        items: 2,
       },
       768: {
         items: 3,

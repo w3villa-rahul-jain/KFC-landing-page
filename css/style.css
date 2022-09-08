@@ -9,6 +9,32 @@ body {
   overflow-x: hidden;
 }
 
+.carousel-width {
+  width: 520px;
+}
+
+.item-1 {
+  background: white;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: flex;
+  box-shadow: 0 15px 20px rgba(241, 178, 19, 0.2);
+}
+
+.font-20 {
+  font-size: 18px;
+}
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: inline-block;
+}
+
+.owl-stage{
+  display: flex;
+  gap: 10px;
+  
+}
+
 :root {
   /* background colours*/
   --bgRed: #f7432b;
@@ -100,7 +126,8 @@ a {
   opacity: 0.6;
 }
 
-.main-center-circle,.bottom-left-hero-circle{
+.main-center-circle,
+.bottom-left-hero-circle {
   position: absolute;
   height: 200px;
   width: 200px;
@@ -113,7 +140,7 @@ a {
   border: 30px solid rgba(249, 85, 54, 0.7);
 }
 
-.bottom-left-hero-circle{
+.bottom-left-hero-circle {
   border: 30px solid #fc796b;
   bottom: -60px;
   left: -60px;
@@ -544,7 +571,6 @@ a {
 
 /* circle code */
 
-
 /* circle code */
 
 /* below card section start */
@@ -569,8 +595,6 @@ a {
   background: white;
   box-shadow: 0 15px 20px rgba(254, 199, 49, 0.2);
 }
-
-
 
 /* cards section end */
 
@@ -673,15 +697,16 @@ a {
 /* two image section end */
 
 /* video side social section start */
-.grid-row-social {
+/* .grid-row-social {
   display: grid;
   grid-template-rows: 1fr 2fr;
-}
+} */
 
 .grid-row-first {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 35px;
+  margin-bottom: 20px;
 }
 
 .grid-row-second {
@@ -944,7 +969,8 @@ a {
 }
 
 @media (max-width: 600px) {
-  .contact-details, .social-btn {
+  .contact-details,
+  .social-btn {
     flex-direction: column;
   }
   .w-contact-house {
@@ -966,7 +992,6 @@ a {
   .side-text {
     font-size: 30px;
   }
-
 
   .below-card-text {
     margin-bottom: 20px;
