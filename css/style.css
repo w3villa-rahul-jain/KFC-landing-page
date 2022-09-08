@@ -961,7 +961,7 @@ a {
     font-size: 30px;
   }
 
-  .below-card-text {
+  .below-card-text,.social-iphone-btn {
     margin-bottom: 20px;
   }
 
@@ -969,9 +969,7 @@ a {
   .social-iphone-btn {
     margin: auto;
   }
-  .social-iphone-btn {
-    margin-bottom: 20px;
-  }
+  
 
   .grid-row-first,
   .grid-row-second {
