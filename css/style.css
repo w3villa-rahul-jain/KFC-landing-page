@@ -8,32 +8,33 @@
 body {
   overflow-x: hidden;
 }
-
+/* 
 .carousel-width {
   width: 520px;
-}
-
+} */
+/* 
 .item-1 {
   background: white;
   border-radius: 20px;
   margin-top: 20px;
   display: flex;
   box-shadow: 0 15px 20px rgba(241, 178, 19, 0.2);
-}
+} */
 
-.font-20 {
+/* .font-20 {
   font-size: 18px;
-}
+} */
 .owl-carousel .owl-dots.disabled,
 .owl-carousel .owl-nav.disabled {
   display: inline-block;
 }
 
-.owl-stage{
+/* .owl-stage{
   display: flex;
   gap: 10px;
   
-}
+} */
+/* ----------------------------root------------------------------  */
 
 :root {
   /* background colours*/
@@ -49,7 +50,17 @@ body {
   --textGray: #808080;
 }
 
-/* common classes section */
+/* --------------#--------------root------------------#------------  */
+
+
+/*----------------- common classes section  -------------------------*/
+
+.display-flex{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+  
 
 a:hover {
   text-decoration: none;
@@ -106,9 +117,9 @@ a {
   padding-bottom: 50px;
 }
 
-/* #common classes section */
+/* ---------------------#common classes section ---------------------------*/
 
-/* circles code section */
+/* -------------------------- circles code section ------------------------*/
 
 .main-section {
   position: relative;
@@ -181,9 +192,9 @@ a {
   z-index: -1;
 }
 
-/* circles code section */
+/*-------------------------- circles code section -------------------------*/
 
-/* heading area */
+/* -------------------- heading area -----------------------------------*/
 .small-heading {
   font-size: 16px;
   font-weight: bold;
@@ -192,9 +203,9 @@ a {
   padding-bottom: 8px;
 }
 
-/* heading area */
+/*----------------------------- heading area --------------------------------*/
 
-/* nav start */
+/*---------------------------------------- nav start -------------------------*/
 
 .nav {
   color: var(--fontWhite);
@@ -242,9 +253,6 @@ a {
 }
 
 .nav-item-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -259,9 +267,6 @@ a {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 22px;
   background: white;
 }
@@ -271,18 +276,18 @@ a {
   color: red;
 }
 
-/* nav end */
+/*------------------------------------ nav end ----------------------------*/
 
-/* main section start */
+/*-------------------------------- main section start ----------------------*/
 .main-section {
   background: var(--bgRed);
   padding: 30px 0px;
   color: white;
 }
 
-/* #main section end */
+/*----------------------------- #main section end ----------------------------*/
 
-/* main area start */
+/* -------------------------main area start ------------------------------*/
 
 .main-area {
   position: relative;
@@ -361,9 +366,9 @@ a {
   transform: rotate(50deg);
 }
 
-/* main area end */
+/*--------------------------------------- main area end ---------------------------*/
 
-/* carousel section start */
+/*------------------------------ carousel section start --------------------------*/
 
 .carousel-section {
   background: white;
@@ -411,9 +416,9 @@ a {
   outline: none;
 }
 
-/* carousel section end */
+/*-------------------------- carousel section end -------------------------------*/
 
-/* contact section start*/
+/*---------------------------- contact section start ---------------------------*/
 .contact-section {
   display: flex;
   justify-content: space-between;
@@ -439,12 +444,7 @@ a {
   padding: 1px;
 }
 
-.social,
-.contact-details {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .contact-social-icons {
   display: flex;
@@ -459,9 +459,9 @@ a {
   border-radius: 50%;
 }
 
-/* contact section end */
+/*------------------------------- contact section end --------------------------------*/
 
-/* cards section start */
+/* -------------------------cards section start------------------------------------ */
 
 .main-card-section {
   background: var(--bgCream);
@@ -557,7 +557,7 @@ a {
 .real-chicken-button {
   margin-top: 35px;
   font-size: 18px;
-  color: white;
+  color: var(--fontWhite);
   background: var(--bgCircle);
   border: none;
   padding: 8px 16px;
@@ -569,11 +569,9 @@ a {
   margin-top: 70px;
 }
 
-/* circle code */
 
-/* circle code */
 
-/* below card section start */
+/*--------------------------- below card section start ------------------------------ */
 
 .below-card-section {
   background: var(--bgCream);
@@ -596,9 +594,9 @@ a {
   box-shadow: 0 15px 20px rgba(254, 199, 49, 0.2);
 }
 
-/* cards section end */
+/*---------------------------- cards section end ------------------------------*/
 
-/* two image section start */
+/*--------------------------- two image section start ------------------------*/
 .bg-only-color {
   background-image: linear-gradient(30deg, #feb841 33%, #fea937 20%);
 }
@@ -694,7 +692,7 @@ a {
   overflow: hidden;
 }
 
-/* two image section end */
+/* ---------------------------two image section end -------------------------------*/
 
 /* video side social section start */
 /* .grid-row-social {
@@ -755,9 +753,9 @@ a {
   color: floralwhite;
 }
 
-/* video side social section start */
+/*------------------------------ video side social section start -------------------------*/
 
-/* social videos section start */
+/* -----------------social videos section start -------------------------------*/
 .social-videos-container {
   background: var(--bgCream);
   padding: 100px 0px;
@@ -832,9 +830,9 @@ a {
   bottom: -40px;
 }
 
-/* social videos section end */
+/*--------------------------------- social videos section end --------------------------*/
 
-/* footer start */
+/*------------------------------------- footer start ------------------------------*/
 .footer {
   background: var(--bgFooter);
   color: var(--fontWhite);
@@ -868,7 +866,7 @@ a {
   padding: 0px 60px;
 }
 
-/* footer end */
+/* -----------------------------footer end --------------------------*/
 
 /* classes */
 .bucket-mr {
