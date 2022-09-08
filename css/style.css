@@ -8,32 +8,12 @@
 body {
   overflow-x: hidden;
 }
-/* 
-.carousel-width {
-  width: 520px;
-} */
-/* 
-.item-1 {
-  background: white;
-  border-radius: 20px;
-  margin-top: 20px;
-  display: flex;
-  box-shadow: 0 15px 20px rgba(241, 178, 19, 0.2);
-} */
 
-/* .font-20 {
-  font-size: 18px;
-} */
 .owl-carousel .owl-dots.disabled,
 .owl-carousel .owl-nav.disabled {
   display: inline-block;
 }
 
-/* .owl-stage{
-  display: flex;
-  gap: 10px;
-  
-} */
 /* ----------------------------root------------------------------  */
 
 :root {
@@ -112,10 +92,7 @@ a {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.mtb-50 {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+
 
 /* ---------------------#common classes section ---------------------------*/
 
@@ -444,8 +421,6 @@ a {
   padding: 1px;
 }
 
-
-
 .contact-social-icons {
   display: flex;
   justify-content: center;
@@ -568,8 +543,6 @@ a {
 .real-margin-btn {
   margin-top: 70px;
 }
-
-
 
 /*--------------------------- below card section start ------------------------------ */
 
@@ -694,11 +667,6 @@ a {
 
 /* ---------------------------two image section end -------------------------------*/
 
-/* video side social section start */
-/* .grid-row-social {
-  display: grid;
-  grid-template-rows: 1fr 2fr;
-} */
 
 .grid-row-first {
   display: grid;
@@ -883,7 +851,7 @@ a {
   }
 }
 
-/* media 992px */
+/*---------------- -------------@media 992px ------------------------------ */
 @media (max-width: 992px) {
   .contact-section {
     flex-direction: column;
@@ -915,7 +883,7 @@ a {
   }
 }
 
-/* media 768px */
+/* -----------------------------@media 768px----------------------------------- */
 @media (max-width: 767px) {
   .card {
     width: 100%;
@@ -965,6 +933,8 @@ a {
     justify-content: center;
   }
 }
+
+/*-------------------------------- @media 600 --------------------------------------- */
 
 @media (max-width: 600px) {
   .contact-details,
