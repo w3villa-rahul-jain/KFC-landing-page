@@ -63,3 +63,14 @@ $(document).ready(function () {
     },
   });
 });
+
+
+
+
+
+// header fixed
+// modale
+// parent
+// carousel name changes
+// set min height of card content
+
