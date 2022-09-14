@@ -2,7 +2,7 @@ nav = document.querySelector(".nav");
 toggleBtn = document.querySelector(".toggle-btn");
 
 toggleBtn.addEventListener("click", function () {
-  console.log("click");
+  
   nav.classList.toggle("collapse-toggle");
 });
 
@@ -66,11 +66,8 @@ $(document).ready(function () {
 
 
 
-
-
 // header fixed
 // modale
 // parent
 // carousel name changes
 // set min height of card content
-
