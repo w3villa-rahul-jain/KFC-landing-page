@@ -71,3 +71,8 @@ $(document).ready(function () {
 // parent
 // carousel name changes
 // set min height of card content
+// unminify css
+
+// Day Plan:
+// 1) fixed Animation
+// 2) javascript function 
