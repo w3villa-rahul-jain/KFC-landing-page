@@ -35,6 +35,35 @@ $(document).ready(function () {
     },
   });
 
+  $(".owl-three").owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: true,
+    gap: 50,
+    autoplay: true,
+    autoplayTimeout: 1100,
+    dots: false,
+    navText: [
+      $(".owl-navigation .owl-nav-prev"),
+      $(".owl-navigation .owl-nav-next"),
+    ],
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      768: {
+        items: 1,
+      },
+      1000: {
+        items: 1,
+      },
+    },
+  });
+
+
   $(".owl-one").owlCarousel({
     loop: true,
     margin: 20,
@@ -63,16 +92,3 @@ $(document).ready(function () {
     },
   });
 });
-
-
-
-// header fixed
-// modale
-// parent
-// carousel name changes
-// set min height of card content
-// unminify css
-
-// Day Plan:
-// 1) fixed Animation
-// 2) javascript function 

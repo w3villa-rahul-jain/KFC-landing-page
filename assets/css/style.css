@@ -93,6 +93,33 @@ a {
 
 /* ---------------------#common classes section ---------------------------*/
 
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++
+deleted
+++++++++++++++++++++++++++++++++++++++++++ */
+.main-carousel-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  padding: 20px;
+}
+
+.second{
+  overflow: hidden;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
 /* -------------------------- circles code section ------------------------*/
 
 .main-section {
